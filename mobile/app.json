@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Chat App",
+    "slug": "chat-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFD700",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "API_URL": "http://localhost:5000/api",
+      "SERVER_URL": "http://localhost:5000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFD700"
+      }
+    }
+  }
+}
+
